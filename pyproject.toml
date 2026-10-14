@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xenstaff-backend"
+version = "1.0.0"
+description = "XenStaff Multi-Tenant HRMS & Payroll API"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "XenFirm Technologies", email = "engineering@xenfirm.com" }
+]
+dependencies = [
+    "django>=5.0.0",
+    "djangorestframework>=3.15.0",
+    "django-cors-headers>=4.3.0",
+    "reportlab>=4.0.0",
+    "pillow>=10.0.0",
+    "python-dotenv>=1.0.0",
+]
